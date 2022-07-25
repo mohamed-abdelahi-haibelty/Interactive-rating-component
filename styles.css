@@ -57,8 +57,9 @@ p{
 }
 .circle-btn{
     display: flex;
-    gap:15px;
+    justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-left: -20px
 }
 .circle-btn button{
     border-radius: 50%;
@@ -84,4 +85,10 @@ p{
 .submit:hover{
   background-color: var(--White);
   color: var(--primary);
+}
+@media (min-width:600px){
+    .container{
+        margin-top: 10%;
+        width:350px;
+    }
 }
