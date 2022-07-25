@@ -46,3 +46,12 @@ body{
 .image-container img{
     width:15px;
 }
+h2{
+    color: var(--White);
+    margin-bottom: 15px;
+}
+p{
+    font-size: 15px;
+    color: var(--Medium-Grey);
+    margin-bottom: 25px;
+}
