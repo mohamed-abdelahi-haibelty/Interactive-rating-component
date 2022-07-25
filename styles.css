@@ -69,3 +69,10 @@ p{
     border:none;
     color:var(--Light-Grey);
 }
+.submit{
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    padding: 13px 40%;
+    border-radius: 40px;
+    color: var(--White);
+}
