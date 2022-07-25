@@ -76,14 +76,14 @@ p{
   color: var(--White);
 }
 .submit{
-    background-color: hsl(25, 97%, 53%);
+    background-color: hsl(25deg 98% 61%);;
     border: none;
     padding: 13px 40%;
     border-radius: 40px;
     color: var(--White);
 }
 .submit:hover{
-  background-color: var(--White);
+  background-color: var(--White) !important;
   color: var(--primary);
 }
 .active{
@@ -92,6 +92,7 @@ p{
 }
 .thank-you{
     text-align: center;
+    display: none;
 }
 .thanks-img{
     margin-bottom: 20px;
@@ -107,6 +108,7 @@ p{
   width: 215px;
   margin-left: 26px;
 }
+
 
 @media (min-width:600px){
     .container{
