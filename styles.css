@@ -86,9 +86,34 @@ p{
   background-color: var(--White);
   color: var(--primary);
 }
+.active{
+    background-color: var(--Medium-Grey) !important;
+    color:var(--White) !important;
+}
+.thank-you{
+    text-align: center;
+}
+.thanks-img{
+    margin-bottom: 20px;
+    transform: translate(-4%, 0%);
+  }
+.selected{
+  background-color: hsl(216deg 10% 21%);
+  border-radius: 30px;
+  margin-bottom: 15px;
+  font-size: 17px;
+  color: var(--primary);
+  padding: 10px 20px;
+  width: 215px;
+  margin-left: 26px;
+}
+
 @media (min-width:600px){
     .container{
         margin-top: 10%;
         width:350px;
+    }
+    .selected{
+        margin-left: 48px;
     }
 }
